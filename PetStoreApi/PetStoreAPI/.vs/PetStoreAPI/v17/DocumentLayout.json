@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\juanr\\Documents\\PetStoreApi\\PetStoreAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\juanr\\Documents\\DevsuAsignments\\PetStoreApi\\PetStoreAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26137EFE-867A-0595-B863-CEADF3B72501}|PetStoreAPI.esproj|c:\\users\\juanr\\documents\\petstoreapi\\petstoreapi\\cypress\\e2e\\petstore_api.cy.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{26137EFE-867A-0595-B863-CEADF3B72501}|PetStoreAPI.esproj|solutionrelative:cypress\\e2e\\petstore_api.cy.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanr\\Documents\\DevsuAsignments\\PetStoreApi\\PetStoreAPI\\cypress\\e2e\\petstore_api.cy.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cypress\\e2e\\petstore_api.cy.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "petstore_api.cy.js",
-              "DocumentMoniker": "C:\\Users\\juanr\\Documents\\PetStoreApi\\PetStoreAPI\\cypress\\e2e\\petstore_api.cy.js",
+              "DocumentMoniker": "C:\\Users\\juanr\\Documents\\DevsuAsignments\\PetStoreApi\\PetStoreAPI\\cypress\\e2e\\petstore_api.cy.js",
               "RelativeDocumentMoniker": "cypress\\e2e\\petstore_api.cy.js",
-              "ToolTip": "C:\\Users\\juanr\\Documents\\PetStoreApi\\PetStoreAPI\\cypress\\e2e\\petstore_api.cy.js",
+              "ToolTip": "C:\\Users\\juanr\\Documents\\DevsuAsignments\\PetStoreApi\\PetStoreAPI\\cypress\\e2e\\petstore_api.cy.js",
               "RelativeToolTip": "cypress\\e2e\\petstore_api.cy.js",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC4AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAYwAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-11-21T17:01:24.368Z",
               "EditorCaption": ""

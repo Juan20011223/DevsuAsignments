@@ -1,0 +1,49 @@
+-----------------------------------------------------------
+           INFORME DE PRUEBA E2E - DEMOBLAZE OPCION 1
+-----------------------------------------------------------
+
+1. OBJETIVO DE LA PRUEBA
+Realizar una prueba funcional automatizada de un flujo de compra en la página https://www.demoblaze.com/. 
+La prueba debe incluir lo siguiente:
+
+- Agregar dos productos al carrito.
+- Visualizar el carrito.
+- Completar el formulario de compra.
+- Finalizar la compra.
+
+-----------------------------------------------------------
+
+2. ALCANCE
+La prueba automatizada verifica:
+- Ingreso a la página principal.
+- Selección y agregado de dos artículos al carrito de compras.
+- Visualización del carrito de compras.
+- Validación del total final de la compra de los artículos.
+- Apertura del formulario de compra.
+- Ingreso de datos personales y de tarjeta.
+- Finalización de la compra.
+
+-----------------------------------------------------------
+
+3. RESULTADOS OBSERVADOS
+Durante la ejecución automatizada con Cypress:
+- La página cargó correctamente.
+- La selección y agregado de los productos al carrito se realizó con éxito.
+- Se visualizan correctamente los artículos en el carrito.
+- El total de los artículos se muestra de forma adecuada.
+- El formulario de compra abre correctamente para ingresar los datos del usuario.
+- Al finalizar la compra aparece el mensaje “Thank you for your purchase”.
+
+-----------------------------------------------------------
+
+4. INCIDENCIAS DETECTADAS
+- No se detectaron errores críticos que impidan completar la compra.
+- Un incidente menor de diseño es que la pantalla para llenar la información personal no desaparece cuando aparece el mensaje “Thank you for your purchase”.
+
+-----------------------------------------------------------
+
+5. CONCLUSIONES
+El flujo de compra en DemoBlaze funciona correctamente bajo las condiciones estipuladas. 
+La automatización permitió validar los diferentes pasos que constituyen el proceso de compra.Aunque existen detalles de diseño, como que la ventana para ingresar los datos permanece visible detrás del mensaje final, en general la página fluye de manera adecuada y la operación se puede completar exitosamente.
+
+-----------------------------------------------------------

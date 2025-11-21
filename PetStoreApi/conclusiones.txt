@@ -1,0 +1,58 @@
+-----------------------------------------------------------
+           INFORME DE PRUEBA API PETSTORE OPCION 3
+-----------------------------------------------------------
+
+
+1. OBJETIVO DE LA PRUEBA
+Realizar pruebas automatizadas sobre la API pública https://petstore.swagger.io/
+para validar el funcionamiento del flujo completo CRUD (Crear, Consultar, Actualizar y Eliminar) un usuario
+
+
+El objetivo principal es asegurar que la API permita manejar correctamente un recurso tipo "User".
+
+-----------------------------------------------------------
+
+2. ALCANCE
+La prueba automatizada cubre los siguientes puntos:
+
+- Crear un usuario con datos base
+- Confirmar que el usuario recién creado exista en la API.
+- Consultar al usuario para validar sus datos
+- Actualizar nombre de usuario y mail
+- Verificar que la actualización se haya hecho correctamente.
+- Eliminar al usuario que fue creado en el paso 1
+- Confirmar que el usuario ya no existe en la API.
+
+La prueba también incorpora:
+- Manejo de reintentos por inestabilidad del servidor PetStore ya que me estaba dando errores al momento de buscar el ususario creado.
+- Validación de estados HTTP.
+- Funciones auxiliares para request y sincronización.
+
+-----------------------------------------------------------
+
+3. RESULTADOS OBSERVADOS
+Durante la ejecución de las pruebas con Cypress:
+
+- La creación del usuario fue exitosa.
+- Se verificó que el usuario estuviera disponible antes de continuar (debido a retrasos del servidor).
+- La búsqueda del usuario confirmó correctamente los datos de correo y nombre previo a la actualización.
+- La actualización del usuario (username + email) se reflejó correctamente.
+- La eliminación del usuario presentó respuestas inconsistentes del servidor (PetStore retorna 404 incluso cuando el usuario sí existe), por lo que se implementaron reintentos.
+- Finalmente se confirmó que el recurso ya no estaba disponible, devolviendo el código 404 esperado.
+
+-----------------------------------------------------------
+
+4. INCIDENCIAS DETECTADAS
+- La API de PetStore no es estable y en varias ocasiones responde 404 inmediatamente después de crear o actualizar usuarios.
+- Después de actualizar un usuario, la API puede tardar hasta varios segundos en reflejar los cambios.
+- La operación DELETE no siempre devuelve 200 aun cuando la eliminación fue exitosa (comportamiento inconsistente del servidor).
+- Se requirió implementar funciones personalizadas (waitForUser y deleteUser) para estabilizar las pruebas ya que la API tardaba o inclusive daba muchos errores al momento de buscar un ususario para actualizarlo,para confirmer que este creado o para eliminarlo.
+
+-----------------------------------------------------------
+
+5. CONCLUSIONES
+El flujo CRUD del usuario en la API PetStore puede ejecutarse exitosamente utilizando Cypress, sin embargo, se evidenció que el servidor presenta inestabilidades en sus tiempos de respuesta y consistencia.
+
+La forma en que agregamos esperas controladas, reintentos y funciones de ayuda hizo que las pruebas fueran mucho más estables. Gracias a eso, cada parte del CRUD se pudo verificar sin que falle por tiempos o respuestas tardías.
+
+Aunque la API pública tiene algunas limitaciones y a veces responde lento o inconsistente, la automatización igual logró validar todo el flujo completo (Crear → Consultar → Actualizar → Eliminar) usando requests REST sin problemas.
