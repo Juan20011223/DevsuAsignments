@@ -1,4 +1,4 @@
-﻿// cypress/e2e/demoblaze_extended.cy.js
+﻿
 
 describe('Flujo de compra completo en DemoBlaze', () => {
 
