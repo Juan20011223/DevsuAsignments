@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juanr\\Documents\\Demoblaze-E2E\\DemoBlazeE2E\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F0E27D6-E106-1B05-B28C-8840994ADB6B}|DemoBlazeE2E.esproj|c:\\users\\juanr\\documents\\demoblaze-e2e\\demoblazee2e\\cypress\\e2e\\demoblaze.cy.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0F0E27D6-E106-1B05-B28C-8840994ADB6B}|DemoBlazeE2E.esproj|solutionrelative:cypress\\e2e\\demoblaze.cy.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F0E27D6-E106-1B05-B28C-8840994ADB6B}|DemoBlazeE2E.esproj|c:\\users\\juanr\\documents\\demoblaze-e2e\\demoblazee2e\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F0E27D6-E106-1B05-B28C-8840994ADB6B}|DemoBlazeE2E.esproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F0E27D6-E106-1B05-B28C-8840994ADB6B}|DemoBlazeE2E.esproj|c:\\users\\juanr\\documents\\demoblaze-e2e\\demoblazee2e\\cypress.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0F0E27D6-E106-1B05-B28C-8840994ADB6B}|DemoBlazeE2E.esproj|solutionrelative:cypress.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F0E27D6-E106-1B05-B28C-8840994ADB6B}|DemoBlazeE2E.esproj|c:\\users\\juanr\\documents\\demoblaze-e2e\\demoblazee2e\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F0E27D6-E106-1B05-B28C-8840994ADB6B}|DemoBlazeE2E.esproj|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\juanr\\Documents\\Demoblaze-E2E\\DemoBlazeE2E\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\juanr\\Documents\\Demoblaze-E2E\\DemoBlazeE2E\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-21T19:20:44.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "demoblaze.cy.js",
+              "DocumentMoniker": "C:\\Users\\juanr\\Documents\\Demoblaze-E2E\\DemoBlazeE2E\\cypress\\e2e\\demoblaze.cy.js",
+              "RelativeDocumentMoniker": "cypress\\e2e\\demoblaze.cy.js",
+              "ToolTip": "C:\\Users\\juanr\\Documents\\Demoblaze-E2E\\DemoBlazeE2E\\cypress\\e2e\\demoblaze.cy.js",
+              "RelativeToolTip": "cypress\\e2e\\demoblaze.cy.js",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwDgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-19T22:26:21.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "cypress.config.js",
+              "DocumentMoniker": "C:\\Users\\juanr\\Documents\\Demoblaze-E2E\\DemoBlazeE2E\\cypress.config.js",
+              "RelativeDocumentMoniker": "cypress.config.js",
+              "ToolTip": "C:\\Users\\juanr\\Documents\\Demoblaze-E2E\\DemoBlazeE2E\\cypress.config.js",
+              "RelativeToolTip": "cypress.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-19T22:28:08.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\juanr\\Documents\\Demoblaze-E2E\\DemoBlazeE2E\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "C:\\Users\\juanr\\Documents\\Demoblaze-E2E\\DemoBlazeE2E\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-19T22:22:16.929Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
